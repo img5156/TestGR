@@ -1,0 +1,17 @@
+22-10-2019
+
+- Included print statement in IMRPhenomHMPhase function
+- Implemented the iPython notebook Abhirup sent to obtain the outputed print statements
+- Implemented the if command but with manually provided values of nonGR parameters. Works.
+- Manually chnaged nonGR parameters: 0, 0.1 and 0.2 in the if loop and plotted and compared the abs(h) and phase for all of them compared to the GR case. Works.
+
+23-10-2019
+
+- Included non GR parameters for M1 and M2 in definitions in lines 148 and 149 in lalsuite_tgrhm/lalsimulation/src/LALSimInspiralWaveformParams.c
+- Included non GR parameters for M1 and M2 in lookup in lines 253 and 254 in lalsuite_tgrhm/lalsimulation/src/LALSimInspiralWaveformParams.c
+- Included non GR parameters for M1 and M2 in isodefault in lines 341 and 342 in lalsuite_tgrhm/lalsimulation/src/LALSimInspiralWaveformParams.c
+- Included in lalsuite_tgrhm/lalsimulation/src/LALSimInspiralWaveformParams.h at lines 101-102, 192-193, 273-275.
+- make and make install successful.
+- Updated LALSimIMRPhenomHM.c: make and make install successful.
+- Ran test1.py to see the changes in the masses of the components. Worked!
+- Compared graphs for different ngrM1,2 values when manually entering parameters v/s when done automatically using test4.py. Match!
